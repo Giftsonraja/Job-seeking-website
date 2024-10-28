@@ -1,0 +1,64 @@
+.align-items-center{
+    margin-left: 0px;
+}
+.hero-title {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Plus Jakarta Sans";
+    line-height: 57.6px;
+  }
+  .hero-section{
+    background-color: rgb(233, 241, 251);
+  }
+  .highlight {
+    color: #3463eb;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .hero-images img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .hero-images{
+    margin-left: 50px;
+    width: 410px;
+    height: 460px;
+  }
+  .col-md-3{
+    width: 140px;
+  }
+  .img-fluid{
+    margin-top: 40px;
+  }
+.mt-4{
+  background-color: white;
+  padding: 5px;
+  width: 570px;
+}
+
+.my-custom-select{
+  width: 100px;
+  text-align: center;
+}
+
+.my-custom-selected{
+  padding: 5px;
+  text-align: center;
+}
+
+  @media (max-width: 1200px){
+    .img-fluid{
+        display: none;
+    }
+  }
+
+  @media (max-width: 992px){
+    .hero-title{
+        width: 350px;
+    }
+  }

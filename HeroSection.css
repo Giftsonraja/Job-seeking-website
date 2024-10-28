@@ -1,0 +1,34 @@
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eef2f7;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #007bff;
+    background-color: #e0edff;
+    padding: 0 5px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .image-left, .image-right {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }

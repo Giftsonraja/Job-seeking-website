@@ -1,0 +1,196 @@
+.container-fluid{
+  padding: 10px;
+  margin-left: 30px;
+  
+}
+.navbar{
+  background-color: rgb(233, 241, 251);;
+}
+.navbar-actions{
+  width: auto;
+
+}
+.navbar-nav{
+  margin-left: 10px;
+  width: 760px;
+}
+.select option {
+  color: #37474f;
+  padding: 8px;
+  font-size: 14px;
+}
+
+select:hover, select:focus {
+  outline: none;
+  color: #3b82f6; 
+}
+
+.navbar-links li:hover select {
+  color: #3b82f6; 
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logoImg {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.logoName {
+  display: inline-block;
+  font-size: 30px;
+  color: #05264E;
+  margin-left: 0%;
+}
+
+.register-btn:hover {
+  color: #3b82f6; 
+}
+.form-select{
+  border: none;
+  text-align: center;
+  width: 120px;
+}
+
+.nav-item{
+  margin-left: 15px;
+  /* background-color: red; */
+}
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.close-btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: #37474f;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  color: #3b82f6;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-actions .btn-primary {
+  background-color: #3b82f6;
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+.navbar-actions .btn-link {
+  text-decoration: underline;
+  color: #000;
+  margin-right: 15px;
+}
+
+.navbar-actions .btn-link:hover {
+  color: #3b82f6;
+}
+.navbar-actions{
+  margin-right: 40px;
+}
+.signinbtn{
+  background-color: #2170ef;
+  color: white;
+  padding-left: 20px;
+}
+.signinbtn:hover{
+  background-color: #052e5f;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Custom navbar styling */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logoImg {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.logoName {
+  font-size: 30px;
+  color: #05264E;
+}
+
+.form-select {
+  border: none;
+  background: none;
+  color: #37474f;
+  font-size: 14px;
+}
+
+.form-select:hover,
+.form-select:focus {
+  color: #3b82f6;
+  outline: none;
+}
+
+.select option {
+  color: #37474f;
+  padding: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 1200px){
+  .collapse.navbar-collapse{
+    display: none !important;
+  }
+}

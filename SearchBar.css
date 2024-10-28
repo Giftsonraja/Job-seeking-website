@@ -1,0 +1,29 @@
+.search-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .search-fields {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .popular-searches {
+    color: #888;
+  }
+  
+  .popular-searches a {
+    color: #007bff;
+    text-decoration: none;
+  }
